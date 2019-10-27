@@ -12,7 +12,7 @@ import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RequestParam;
 /**
- * Created by yumaoying on 2018/5/7.
+ * Created by xiangjunming on 2019/10/27.
  */
 @Controller
 @RequestMapping({"/goods"})

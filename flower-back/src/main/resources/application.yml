@@ -1,12 +1,12 @@
 web:
-  upload-path: E:\flower\user\
+  upload-path: D:\flower\user\
 
 spring:
 # 数据源基础配置
     datasource:
-      url: jdbc:mysql://localhost:3306/chunzhiyu?useUnicode=true&characterEncoding=utf-8&useSSL=false
+      url: jdbc:mysql://localhost:3306/flower_db?useUnicode=true&characterEncoding=utf-8&useSSL=false
       username: root
-      password: yumaoying
+      password: root
       driver-class-name: com.mysql.jdbc.Driver
 
 #  测试用于输出运行时sql，仅用于开发，若用，将上面的数据源基本配置注释
@@ -62,9 +62,9 @@ spring:
       #邮件服务地址
       host: smtp.qq.com
       #用户名
-      username: 1101271954@qq.com
+      username: 330021915@qq.com
       #密码（授权码）
-      password: hkvzvkqwvdcwbaac
+      password: dtciggvlmcgebjed
       #默认编码UTF-8
       default-encoding: utf-8
       #端口，这里添加587即可

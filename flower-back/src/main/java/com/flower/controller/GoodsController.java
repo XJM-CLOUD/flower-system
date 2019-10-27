@@ -25,7 +25,7 @@ import java.util.List;
 import java.util.Map;
 
 /**
- * Created by yumaoying on 2018/4/30.
+ * Created by xiangjunming on 2019/10/27.
  */
 @Controller
 @RequestMapping("/goods")

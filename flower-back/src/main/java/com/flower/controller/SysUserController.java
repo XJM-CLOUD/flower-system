@@ -135,7 +135,7 @@ public class SysUserController {
     //用户分页查询
     @RequestMapping("/users")
     @ResponseBody
-    @Cacheable
+//    @Cacheable
     public Map<String, Object> get(SysUser sysUser, String draw,
                                    @RequestParam(required = false, defaultValue = "0") int start,
                                    @RequestParam(required = false, defaultValue = "10") int length) {

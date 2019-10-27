@@ -1,4 +1,4 @@
-USE `chunzhiyu`; //换成自己的书据库
+USE `flower_db`; //换成自己的书据库
 --------系统管理员表，密码为加密后数据，加密前数据为123456
 insert into `sys_user` (`uid`, `username`, `password`, `salt`, `state`, `name`) values('1','admin','7085ab7c91470f35517638d67dc284da','5d114997f3dab23a7220c6b5d7db7a8b','1','管理员');
 
